@@ -1,0 +1,14 @@
+.container {
+    border: 1px solid blue;
+    margin: 10% 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 300px;
+    gap: 5px;
+    padding: 10px 10px;
+}
+
+.display-screen {
+    grid-column: 1 / 5;
+}
